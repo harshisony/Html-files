@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deactivate form</title>
+    <style>
+        label{
+            font-weight: bold;
+            line-height: 2;
+        }
+        button{
+            border-radius: 8px;
+            block-size: 30px;
+            background-color: rgb(100, 196, 237);
+            color: azure;
+            font-weight: bold;
+        }
+    </style>
+    
+</head>
+<body>
+    <h3 style="text-align: center;">Temporarily Deactivate Your Account</h3>
+    <p>You can deactivate your account instead of deleting it. This means your account will be hidden until you reactivate it by logging back in.</p>
+    <p>You can only deactivate your account once a week.</p>
+    <hr>
+    <p ><b>Keeping Your Data Safe</b> </p>
+    <p>Nothing is more important to us than the safety and security of the Instagram community. People put their trust in us by sharing moments of their lives on Instagram. So we will never make any compromises when it comes to safeguarding your data.</p>
+    <hr>
+    <form action="">
+        <label for="reason">Why are you deactivating your account?</label><br>
+        <select name="reason" id="reason" class="formque">
+            <option value="0">Select</option>
+            <option value="1">This is temporary,I'lll be back</option>
+            <option value="2">Too busy/too distracting</option>
+            <option value="3">Privacy Concerns</option>
+            <option value="4">Created a second account</option>
+        </select><br>
+        <label for="password" class="formque">To continue, please re-enter your password</label><br>
+        <input type="password" id="password"><br>
+        <a href="www.instagram.com">Forgot Password?</a><br>
+        <p><b> Any other reasons:</b></p>
+        <textarea name="comments" id="feedback" cols="90" rows="4"></textarea>
+        <p>When you press the button below, your photos, comments and likes will be hidden until you reactivate your account by logging back in.</p>
+        <button type="button" onclick="alert('Your account is temporarily Deactived!')">Temporarily Deactivate Account</button>
+    </form>
+</body>
+</html>
