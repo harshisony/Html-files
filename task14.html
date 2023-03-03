@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Timetable</title>
+    <style>
+        table,th,td{
+        border:2px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+    }
+    tr{
+        text-align: center;
+        
+    }
+    th{
+        background-color:rgb(226, 243, 197);
+    }
+    tr:nth-child(even){
+        background-color: lightpink;
+    }
+    tr:nth-child(odd){
+        background-color:rgb(127, 183, 240);
+    }
+    body{
+        background-image: url(harshi2.jpg);
+        background-repeat: no-repeat;
+        opacity:0.7;
+        
+
+        
+    }
+    h2{
+        text-align: center;
+    }
+    
+    
+
+    </style>
+    
+</head>
+<body>
+    <h2><u> CSSE-B TIME TABLE</u></h2>
+   
+    <table>
+        <thead>
+            <tr>
+                <th>DAY/HR</th>
+                <th>10:00AM TO 11:00PM</th>
+                <th>11:00AM TO 12:00</th>
+                <th>12:00PM TO 1:00PM</th>
+                <th>LUNCH BREAK</th>
+                
+                <th>2:15PM TO 3:15PM</th>
+                <th>3:15PM TO 4:15PM</th>
+                <th>4:15PM TO 5:15PM</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th>MON</th>
+            <td>IS</td>
+            <td>IoT</td>
+            <td>WT</td>
+            <td rowspan="6"></td>
+            <td>FOE</td>
+            <td>PBEA</td>
+            <td>ML</td>
+        </tr>
+        <tr>
+            <th>TUE</th>
+        
+            <td colspan="3" style="text-align: center;">ML LAB</td>
+            
+            <td>IoT</td>
+            <td>BDT</td>
+            <td>PBEA</td>
+            
+        </tr>
+        <tr>
+            <th>WED</th>
+            <td colspan="3" style="text-align: center;">WT LAB</td>
+            <td>BDT</td>
+            <td>ML</td>
+            <td>WT</td>
+        
+        </tr>
+        <tr>
+            <th>THU</th>
+            <td>ML</td>
+            <td>WT</td>
+            
+            <td>IS</td>
+            <td>FOE</td>
+            <td>PBEA</td>
+            <td>IoT</td>
+        </tr>
+        <tr>
+            <th>FRI</th>
+            <td colspan="3" style="text-align: center;">DAD LAB</td>
+            <td>LIB</td>
+            <td>BDT</td>
+            <td>IS</td>
+            
+        </tr>
+    </tbody>
+    </table>
+    
+</body>
+</html>
